@@ -167,6 +167,10 @@ a:hover {
     padding-left: 45px;
 }
 
+.notSlideshow {
+    max-height: 800px;
+}
+
 /*---------------------------------------
   CUSTOM LINK               
 -----------------------------------------*/
@@ -280,11 +284,12 @@ strong {
   font-size: var(--product-link-font-size);
 }
 
+/*
 .custom-btn:hover,
 .slick-slideshow .custom-btn:hover {
   background: var(--primary-color);
   color: var(--white-color);
-}
+}*/
 
 .custom-icon {
   color: var(--p-color);
@@ -591,7 +596,7 @@ strong {
 
 .slick-slideshow .custom-btn {
   font-weight: var(--font-weight-bold);
-  display: inline-block;
+  display: inline-block; 
   padding-right: 32px;
   padding-left: 32px;
 }
@@ -1097,11 +1102,11 @@ button:focus:not(:focus-visible) {
     padding: 6rem 3rem 4rem 3rem;
   }
 
-
+/*
   .slick-slideshow .slick-dots li {
     width: 25px;
     height: 25px;
-  }
+  }*/
 
   .modal-header {
     padding-top: 6rem;
