@@ -159,8 +159,7 @@ a:hover {
 }
 
 .phoneLandscape {
-    /* max-width: 600px; */
-    width: 600px;
+    max-width: 600px; 
 }
 
 .phoneLandscape2 {
