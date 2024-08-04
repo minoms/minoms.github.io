@@ -169,6 +169,8 @@ a:hover {
 
 .newHeader {
     max-height: 800px;
+/*    padding-top: 50px;*/
+    margin-top: 50px;
 }
 
 /*---------------------------------------
