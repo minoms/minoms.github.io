@@ -168,7 +168,8 @@ a:hover {
 }
 
 .newHeader {
-/*    max-height: 900px;*/
+    
+/*    max-height: 800px;*/
 /*    padding-top: 50px;*/
     margin-top: 50px;
 }
@@ -370,7 +371,7 @@ strong {
   right: 0;
   left: 0;
   padding: 25px 0;
-  z-index: 2;
+  z-index: 9999; /* 2; */
   will-change: transform;
   transition: transform 300ms linear;
 }
