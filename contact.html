@@ -91,7 +91,8 @@
                 </div>
             </nav>
 
- 
+
+     
             <section class="contact section-padding">
                 <div class="container">
                     <div class="row">
@@ -99,6 +100,43 @@
                         <div class="col-lg-6 col-12">
                             <h2 class="mb-4">Let's <span>begin</span></h2>
 
+                             <form action="http://mailthis.to/ptropisms@gmail.com" method="post">
+
+                                  <div class="inputblock">
+                                    <label for="email">Email Address:</label>
+                                    <input type="email" name="email" id="name" class="txt">
+                                  </div>
+
+                                  <div class="inputblock">
+                                    <label for="_subject">Subject</label>
+                                    <div class="select-style">
+                                    <select name="_subject">
+                                      <option value="General Inquiry">General Inquiry</option>
+                                      <option value="Support">Support</option>
+                                      <option value="Advertising">Advertising</option>
+                                      <option value="Press or Media">Press or Media</option>
+                                    </select>
+                                    </div>
+                                  </div>
+
+                                  <div class="inputblock">
+                                    <label for="message">Message:</label>
+                                    <textarea cols="40" rows="8" name="message" class="txt"></textarea>
+                                  </div>
+
+                                       <input type="hidden" name="_replyto" value="%email">
+                                  <input type="hidden" name="_valid[email]" value="valid_email">
+                                  <input type="hidden" name="_valid[message]" value="min_length[10]">
+                                  <!-- OPTIONAL REDIRECT
+                                  <input type="hidden" name="_after" value="http://www.vandelaydesign.com/demo/mailthis/success.html">
+                                  -->
+
+                                  <div class="inputblock">
+                                    <input type="submit" class="submit-btn" value="Send Message">
+                                  </div>
+
+                            </form>
+<!--
                             <form class="contact-form me-lg-5 pe-lg-3" role="form">
 
                                 <div class="form-floating">
@@ -129,6 +167,7 @@
                                     <button type="submit" class="form-control">Send</button>
                                 </div>
                             </form>
+-->
                         </div>
 
                     </div>
